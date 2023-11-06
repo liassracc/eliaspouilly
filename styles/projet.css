@@ -1,0 +1,166 @@
+.main-page{
+    margin-left: 200px;
+    display: inline-block;
+   
+}
+.retour{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  display: inline-block;
+
+  
+  width: 75px;
+  height: 20px;
+  background-color: white;
+
+
+  font-family: 'Sometype Mono', monospace;
+  
+}
+
+.retour:active{
+  color: #ff0000;
+}
+.retour:hover{
+  text-decoration: none;
+}
+.nav{
+    position: fixed;
+    left:30px;
+    top:85px;
+    display: inline-block;
+
+    
+    width: 135px;
+    height: 130px;
+    background-color: none;
+
+    font-family: 'Sometype Mono', monospace;
+
+}
+.title{
+  position: fixed;
+}
+
+h2{
+   position: absolute;
+    color: red;
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: italic;
+    font-size: 400;
+
+    border-style: solid;
+    width: 135px;
+    border-radius: 50px;;
+    text-align: center;
+
+}
+div.gallery {
+    border: 1px solid #ffffff;
+    
+
+  }
+  
+  div.gallery img {
+    width: 80%;
+    height: auto;
+    margin-left: 23px;
+    margin-top: 20px;;
+    
+  }
+  
+ 
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 5px 6px;
+    float: left;
+    
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 33%;
+      margin: 1px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 70%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
+  li{
+    list-style-type: none;
+  }
+  .dixit, .atlas,
+  .prevert, .expe{
+    
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px dashed red;
+    color:#ff0000;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    
+  }
+
+  .dixit:hover{
+    zoom: 200%;
+    cursor: pointer;
+    display: inline-block;
+
+    color: #ffffff;
+    background-color: red;
+    font-style: italic;
+    
+   
+  }
+
+  .atlas:hover{
+    zoom: 200%;
+    cursor: pointer;
+    display: inline-block;
+
+    color: #ffffff;
+    background-color: red;
+    font-style: italic;
+  }
+  
+  .prevert:hover{
+    zoom: 200%;
+    cursor: pointer;
+    display: inline-block;
+
+    color: #ffffff;
+    background-color: red;
+    font-style: italic;
+  }
+
+  .expe:hover{
+    zoom: 200%;
+    cursor: pointer;
+    display: inline-block;
+
+    color: #ffffff;
+    background-color: red;
+    font-style: italic;
+  }

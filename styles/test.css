@@ -1,0 +1,156 @@
+.retour{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  display: inline-block;
+
+  
+  width: 75px;
+  height: 20px;
+  background-color: white;
+
+
+  font-family: 'Sometype Mono', monospace;
+  
+}
+
+.retour:active{
+  color: #ff0000;
+}
+.retour:hover{
+  text-decoration: none;
+}
+
+.logo-center{
+  width: 500px;
+  display: inline-block;
+  position: fixed;
+  top:250px;
+  left: 450px;
+
+}
+.paragraphe{
+  width: 200px;
+  height: 450px;
+  left: 120px;
+}
+
+.paragraphe2{
+  width: 200px;
+  height: 450px;
+  position: fixed;
+  right: 220px;
+  top:420px;
+
+}
+.paragraphe3{
+  width: 200px;
+  height: 450px;
+  position: fixed;
+  left: 100px;
+
+}
+
+.paragraphe4{
+  width: 200px;
+  height: 450px;
+  position: fixed;
+  right: 420px;
+  top:80px;
+
+}
+.paragraphe5{
+  width: 200px;
+  height: 450px;
+  position: fixed;
+  right: 520px;
+  top:580px;
+
+}
+.parti1{
+  display: inline-block;
+  
+  width: 400px;
+ margin-left:30px;
+ margin-top:45px;
+
+  font-family: 'Raleway', sans-serif;
+}
+
+.parti2{
+  display: inline-block;
+
+  width: 280px;
+margin-top: 35px;
+
+  font-family: 'Raleway', sans-serif;
+}
+.parti3{
+  display: inline-block;
+
+  width: 260px;
+margin-top: 35px;
+
+  font-family: 'Raleway', sans-serif;
+}
+
+.parti4{
+  display: inline-block;
+
+  width: 270px;
+margin-top: 35px;
+margin-right: 100Px;
+
+  font-family: 'Raleway', sans-serif;
+}
+.parti5{
+  display: inline-block;
+
+  width: 280px;
+margin-top: 5px;
+margin-right: 100px;
+
+  font-family: 'Raleway', sans-serif;
+}
+.parti6{
+  display: inline-block;
+
+  width: 400px;
+margin-top: 5px;
+margin-left: 30px;
+
+  font-family: 'Raleway', sans-serif;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  width: 200px;
+}
+
+.photo{
+  width: 200px;
+}
+
+h6{
+  font-family: 'IBM Plex Mono', monospace;
+}
