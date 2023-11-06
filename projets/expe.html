@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>autres</title>
+
+ 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400&family=IBM+Plex+Mono:ital,wght@0,100;0,400;1,200;1,700&family=Pixelify+Sans&family=Sometype+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <style>
+      .main-page{
+    margin-left: 200px;
+    display: inline-block;
+   
+}
+.retour{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  display: inline-block;
+
+  
+  width: 75px;
+  height: 20px;
+  background-color: white;
+
+
+  font-family: 'Sometype Mono', monospace;
+  
+}
+
+.retour:active{
+  color: #ff0000;
+}
+.retour:hover{
+  text-decoration: none;
+}
+.nav{
+    position: fixed;
+    left:30px;
+    top:85px;
+    display: inline-block;
+
+    
+    width: 135px;
+    height: 130px;
+    background-color: none;
+
+    font-family: 'Sometype Mono', monospace;
+
+}
+.title{
+  position: fixed;
+}
+
+h2{
+   position: absolute;
+    color: red;
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: italic;
+    font-size: 400;
+
+    border-style: solid;
+    width: 135px;
+    border-radius: 50px;;
+    text-align: center;
+
+}
+div.gallery {
+    border: 1px solid #ffffff;
+    
+
+  }
+  
+  div.gallery img {
+    width: 50%;
+    height: auto;
+    margin-left: 23px;
+    margin-top: 20px;;
+    
+  }
+  
+ 
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 5px 6px;
+    float: left;
+    
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 33%;
+      margin: 1px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 70%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
+  li{
+    list-style-type: none;
+  }
+  .dixit, .atlas,
+  .prevert, .expe{
+    
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px dashed red;
+    color:#ff0000;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    
+  }
+
+  .dixit:hover{
+    zoom: 100%;
+    cursor: pointer;
+    display: inline-block;
+
+    color: #ffffff;
+    background-color: red;
+    font-style: italic;
+    
+   
+  }
+
+  .atlas:hover{
+    zoom: 200%;
+    cursor: pointer;
+    display: inline-block;
+
+    color: #ffffff;
+    background-color: red;
+    font-style: italic;
+  }
+  
+  .prevert:hover{
+    zoom: 200%;
+    cursor: pointer;
+    display: inline-block;
+
+    color: #ffffff;
+    background-color: red;
+    font-style: italic;
+  }
+
+  .expe:hover{
+    zoom: 200%;
+    cursor: pointer;
+    display: inline-block;
+
+    color: #ffffff;
+    background-color: red;
+    font-style: italic;
+  }
+
+  section {
+    display:flex;
+    width:100%;
+    height:100vh;
+}
+
+#container {
+    margin:5px;
+    display:grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    grid-template-areas:
+        "cellule1 cellule2"
+        "cellule3 cellule3";
+}
+
+.bloc1 {
+    grid-area: cellule1;
+}
+
+.bloc2 {
+    grid-area: cellule2;
+}
+
+.bloc3 {
+    grid-area: cellule3;
+}
+
+.bloc4 {
+    grid-area: cellule4;
+}
+
+#crop {
+    width:300px;
+    height:300px;
+    object-fit: cover;
+}
+
+#crop2 {
+    width:600px;
+    height:600px;
+    object-fit: cover;
+}
+
+.second2{
+margin-left: 800px;
+margin-top: 0;
+}
+    </style>
+        </head>
+        <body>
+        
+        <h2 class="title"> autres</h2>
+        
+        <div class="main-page">
+          <section>
+
+            <div id="container">
+            
+                <div class="bloc1"><img id="crop" src="/autres/vasegris1.png"></div>
+                <div class="bloc2"><img id="crop" src="/autres/vase5.png"></div>
+            <div class="bloc3"><img id="crop2" src="/autres/vaseforme.png"></div>
+            
+            </div>
+                
+          
+
+          
+
+              <div id="container">
+              
+                  <div class="bloc1"><img id="crop" src="/autres/vase3.png"></div>
+                  <div class="bloc2"><img id="crop" src="/autres/vase4.png"></div>
+                  <div class="bloc3">   <video width="600" controls>
+                    <source src="/autres/video-output-A73F54FC-9CFD-4295-9105-02F47F471F29.mp4" type="video/mp4"></div>
+                    
+                    </div>
+                  
+              </section>
+            
+        <div class="nav">
+          Voici quelques expérimentations diverses.
+          
+        </div>
+
+        <h4 class="retour"> 
+          <a href="/index.html">
+            retour
+          </a>
+         </h4> 
+
+        </body>
+        </html>
+        
+        
+</html>
